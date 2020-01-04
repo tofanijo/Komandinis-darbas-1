@@ -24,9 +24,12 @@ namespace Zaidimas1
             zemesRutulioTuris = (double)((double)4 / (double)3) * Math.PI * Math.Pow(zemesRutulioSpindulys, 3);
             trikampioIzambine = Math.Sqrt(Math.Pow(statinis1, 2) + Math.Pow(statinis2, 2));
 
+
+
             Console.WriteLine("*********************************************");
             Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioPlotas}");
             Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioTuris}");
+            Console.WriteLine($"Trikampio izambine yra: {trikampioIzambine}");
             Console.WriteLine("*********************************************");
 
             Console.ReadLine();
