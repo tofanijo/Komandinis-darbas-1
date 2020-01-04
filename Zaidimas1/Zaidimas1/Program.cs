@@ -15,6 +15,7 @@ namespace Zaidimas1
             double zemesRutulioSpindulys = 6371;
 
             Console.WriteLine("*********************************************");
+            Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioPlotas}");
             Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioTuris}");
             Console.WriteLine("*********************************************");
 
