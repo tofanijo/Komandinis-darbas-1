@@ -13,6 +13,14 @@ namespace Zaidimas1
             double zemesRutulioPlotas = 0;
             double zemesRutulioTuris = 0;
             double zemesRutulioSpindulys = 6371;
+            double zemesRutulioDiametras = zemesRutulioSpindulys * 2;
+
+            
+           
+
+
+            zemesRutulioPlotas = 4 * Math.PI * Math.Pow(zemesRutulioDiametras, 2);
+            zemesRutulioTuris = (4 / 3) Math.PI * Math.Pow(zemesRutulioDiametras, 3);
 
             Console.WriteLine("*********************************************");
             Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioTuris}");
