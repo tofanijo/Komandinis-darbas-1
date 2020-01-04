@@ -23,6 +23,7 @@ namespace Zaidimas1
             zemesRutulioTuris = (4 / 3) * Math.PI * Math.Pow(zemesRutulioDiametras, 3);
 
             Console.WriteLine("*********************************************");
+            Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioPlotas}");
             Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioTuris}");
             Console.WriteLine("*********************************************");
 
