@@ -10,6 +10,15 @@ namespace Zaidimas1
     {
         static void Main(string[] args)
         {
+            double zemesRutulioPlotas = 0;
+            double zemesRutulioTuris = 0;
+            double zemesRutulioSpindulys = 6371;
+
+            Console.WriteLine("*********************************************");
+            Console.WriteLine($"Zemes rutulio turis yra: {zemesRutulioTuris}");
+            Console.WriteLine("*********************************************");
+
+            Console.ReadLine();
         }
     }
 }
